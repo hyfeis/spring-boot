@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Review id="1127">
+  <ReviewIssue id="J0ACHYUX">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:26:13:305 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:26:19:722 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File line="1">review/1127-1127.review</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="J0ACP3Y7">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:31:46:495 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:32:23:755 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File line="23">src/main/java/com/example/test/ApplicationTest.java</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>测试</Summary>
+    <Description>Jupiter测试</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="J0ACR72Z">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:33:23:867 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:40:21:274 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File line="23">src/main/java/com/example/test/ApplicationTest.java</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>再次测试</Summary>
+    <Description>Jupiter再次测试</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.resolution.label.validNeedsfixing</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="J0ACS14D">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:34:02:797 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:39:19:659 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File line="21">src/main/java/com/example/test/ApplicationTest.java</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>再次测试</Summary>
+    <Description>嘿嘿</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.resolution.label.validFixlater</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="J0ACV693">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:36:29:415 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:39:08:258 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File line="21">src/main/java/com/example/test/ApplicationTest.java</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.resolution.label.validFixlater</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="J0AD0ANK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:40:28:400 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:44:42:251 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File></File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>色的方法</Summary>
+    <Description>适当的方式发到</Description>
+    <Annotation></Annotation>
+    <Revision>说是</Revision>
+    <Resolution>item.resolution.label.validFixlater</Resolution>
+    <Status>item.status.label.closed</Status>
+  </ReviewIssue>
+  <ReviewIssue id="J0AD0LF5">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:40:42:353 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:43:34:155 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File line="23">src/main/java/com/example/test/ApplicationTest.java</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision>山东</Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.closed</Status>
+  </ReviewIssue>
+  <ReviewIssue id="J0AD4BM5">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:43:36:269 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:43:38:010 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File>review/1127-1127.review</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="J0AD67GE">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:45:04:190 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:45:04:194 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File line="8">src/main/java/com/example/test/ApplicationTest.java</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="J0AD6GZS">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:45:16:552 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-15 :: 10:45:29:684 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File line="10">src/main/java/com/example/test/ApplicationTest.java</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision>好了</Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.closed</Status>
+  </ReviewIssue>
+</Review>
