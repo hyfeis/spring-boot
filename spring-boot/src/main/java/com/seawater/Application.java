@@ -1,4 +1,4 @@
-package com.example.test;
+package com.seawater;
 
 import java.text.DateFormat;
 import java.util.Arrays;
@@ -11,12 +11,16 @@ import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @EnableAutoConfiguration
-public class ApplicationTest {
+@ComponentScan
+@Configuration
+public class Application {
 	// 根节点  
 	public static final String ROOT = "/root-ktv";  
 	
@@ -40,12 +44,12 @@ public class ApplicationTest {
 		            System.out.println("状态:" + event.getState()+":"+event.getType()+":"+event.getWrapper()+":"+event.getPath());  
 		        }  
 		    });
-		    zk.notifyAll();
+		    //zk.notifyAll();
 		    // 创建一个总的目录ktv，并不控制权限，这里需要用持久化节点，不然下面的节点创建容易出错  
-		    //zk.create(ROOT, "root-ktv".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);  
+		    zk.create(ROOT, "root-ktv".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);  
 		  
 		    // 然后杭州开一个KTV ,       PERSISTENT_SEQUENTIAL 类型会自动加上 0000000000 自增的后缀  
-		    //zk.create(ROOT+"/cs01", "杭州KTV".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT_SEQUENTIAL);  
+		    zk.create(ROOT+"/cs01", "杭州KTV".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT_SEQUENTIAL);  
 		    // 也可以在北京开一个,       EPHEMERAL session 过期了就会自动删除  
 		    zk.create(ROOT+"/北京KTV", "北京KTV".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL);  
 		  
@@ -65,7 +69,7 @@ public class ApplicationTest {
 		}catch(Exception e){
 			e.printStackTrace();
 		}
-		SpringApplication.run(ApplicationTest.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

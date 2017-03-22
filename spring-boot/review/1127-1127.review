@@ -170,4 +170,21 @@
     <Resolution>item.label.unset</Resolution>
     <Status>item.status.label.closed</Status>
   </ReviewIssue>
+  <ReviewIssue id="J0C5TRTH">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-16 :: 16:54:59:093 GMT+08:00</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2017-03-16 :: 16:55:02:460 GMT+08:00</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>1127</ReviewerId>
+    <AssignedTo>1127</AssignedTo>
+    <File line="15">src/main/java/com/example/test/ApplicationTest.java</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
 </Review>
